@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 100px;
+}
+ul {
+  list-style-type: none;
+}
+.focus {
+  position: relative;
+  margin: 0 auto;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+}
+.focus .picture {
+  position: absolute;
+  left: -480px;
+  top: 0;
+  width: 3840px;
+  height: 320px;
+}
+.focus .picture img {
+  float: left;
+}
+.button-group {
+  position: absolute;
+  width: 90px;
+  bottom: 0;
+  left: calc(50% - 45px);
+}
+.button-group span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  cursor: pointer;
+}
+span.active {
+  background-color: #eb3f2f;
+}
+.arrow {
+  position: absolute;
+  visibility: hidden;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  opacity: .2;
+}
+.arrow p {
+  font-size: 26px;
+  line-height: 40px;
+}
+.arrow:hover {
+  opacity: .6;
+}
+#left {
+  left: 0;
+  top: calc(50% - 20px);
+}
+#right {
+  right: 0;
+  top: calc(50% - 20px);
+}
