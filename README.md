@@ -1,3 +1,3 @@
 # focus-picture-carousel
-JavaScript
+JavaScript  
 jQuery实现了一个焦点图效果  
